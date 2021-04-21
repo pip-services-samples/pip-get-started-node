@@ -7,8 +7,11 @@
 # Console logger
 - descriptor: "pip-services:logger:console:default:1.0"
   level: "trace"
-     
-# Performance counter that post values to log
+
+# Tracer that posts records to log
+- descriptor: "pip-services:tracer:log:default:1.0"
+
+# Performance counter that posts values to log
 - descriptor: "pip-services:counters:log:default:1.0"
      
 # Controller
